@@ -5,6 +5,7 @@ moves = {}
 def player(prev_play, opponent_history=[]):
   global moves
 
+  # default of number of moves
   n = 5
 
   if prev_play in ["R","P","S"]:
